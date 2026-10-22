@@ -1,127 +1,48 @@
-# CyberShield
+# Phishing Detection — Group 1
 
-CyberShield is a Flask-based cybersecurity toolkit developed as an academic project. It provides multiple security tools in a single web application, including AI-powered phishing website detection, URL analysis, password strength checking, network utilities, and reporting features.
+## Project Overview
+Phishing Detection is an AI/ML mini project developed for the Fundamentals of Artificial Intelligence subject at L.J. Polytechnic, Ahmedabad.
 
----
+The project focuses on identifying potentially phishing URLs using URL features and machine learning techniques.
 
 ## Features
+- URL input for phishing detection
+- URL feature extraction
+- Feature scaling
+- Machine learning-based URL classification
+- Prediction results through a web interface
 
-- AI-Based Phishing Website Detection
-- URL Analyzer
-- Password Strength Checker
-- WHOIS Lookup
-- DNS Lookup
-- SSL Certificate Checker
-- Port Scanner
-- Malware Hash Scanner
-- File Hash Generator
-- Network Monitor
-- Dashboard with Scan History
-- PDF and CSV Report Export
-
----
-
-## Tech Stack
-
-### Backend
+## Technologies Used
 - Python
 - Flask
+- HTML5, CSS3, JavaScript and Bootstrap 5
 - TensorFlow / Keras
 - Scikit-learn
-- SQLite
 
-### Frontend
-- HTML5
-- CSS3
-- JavaScript
+## Project Files
+- `app.py` — Application entry point
+- `feature_extractor.py` — Extracts features from URLs
+- `predictor.py` — Handles prediction logic
+- `train_model.py` — Model training script
+- `phishing.html` — Web interface
+- `phishing_model.keras` — Trained model
+- `scaler.pkl` — Feature scaler
+- `requirements.txt` — Python dependencies
 
----
+## Dataset
+The `phishing.csv` dataset is not included in this repository because of its file size. It is retained separately by the project team.
 
-## Project Structure
+## Group Members
+1. Vadi Saanvi — 24012250910013
+2. Shah Smeet — 24012250910027
+3. Vaman Busha — 24012250910036
+4. Ranpariya Pragati — 24012250910070
+5. Thakur Aryan — 24012250910072
 
-```
-cybershield/
-│
-├── app/
-├── database/
-├── dataset/
-├── exports/
-├── logs/
-├── model/
-├── reports/
-├── static/
-├── templates/
-├── tests/
-├── uploads/
-│
-├── app.py
-├── config.py
-├── requirements.txt
-├── README.md
-└── .gitignore
-```
+## Academic Details
+**Subject:** Fundamentals of Artificial Intelligence  
+**Department:** Artificial Intelligence and Machine Learning  
+**Institution:** L.J. Polytechnic, Ahmedabad  
+**Academic Year:** 2026–2027
 
----
-
-## Installation
-
-### 1. Create a virtual environment
-
-```bash
-python -m venv venv
-```
-
-### 2. Activate the virtual environment
-
-**Windows**
-
-```bash
-venv\Scripts\activate
-```
-
-**Linux/macOS**
-
-```bash
-source venv/bin/activate
-```
-
-### 3. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Run the application
-
-```bash
-python app.py
-```
-
----
-
-## Future Modules
-
-- AI Phishing Detection
-- URL Reputation Analyzer
-- Password Security Checker
-- WHOIS/DNS/SSL Lookup
-- Network Monitor
-- Port Scanner
-- Malware Hash Scanner
-- Report Generator
-- Dashboard Analytics
-
----
-
-## License
-
-This project is developed for educational purposes.
-
----
-
-## Author
-
-**Saanvi Vadi**
-
-Diploma in Computer Engineering (AI & ML)  
-L.J. Polytechnic, Ahmedabad
+This project is developed for academic purposes.
